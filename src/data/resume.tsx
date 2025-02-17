@@ -21,7 +21,11 @@ export const DATA = {
     "Docker",
     "Redis",
     "C++",
-
+    "Python",
+    "Go",
+    "Docker",
+    "Kubernetes",
+    "Nest.js",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -60,6 +64,20 @@ export const DATA = {
       },
     },
   },
+  work: [
+    {
+      company: "Homers & Greek",
+      href: "",
+      badges: ["Remote"],
+      location: "Remote",
+      title: "Full Stack Engineer",
+      logoUrl: "https://media.licdn.com/dms/image/v2/C4D0BAQGsFXcFMNv0mA/company-logo_200_200/company-logo_200_200/0/1668230451481/onelytech_logo?e=1747872000&v=beta&t=2PSeX4VCK65IKYy3_guvSmqkJFQaU1f6JYZA7VCE7TI",
+      start: "Jan 2025",
+      end: "Present",
+      description:
+        "",
+    },
+  ],
   education: [
     {
       school: "Tilak Vidhyapeet pune",
