@@ -29,7 +29,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://drive.google.com/file/d/1AkNUfSMQJDUrNTuwxGDVGZUtfn0b4hvO/view?usp=sharing", icon: NotepadText , label: "Resume" },
+    { href: "https://drive.google.com/file/d/1AkNUfSMQJDUrNTuwxGDVGZUtfn0b4hvO/view?usp=sharing", icon: NotepadText, label: "Resume" },
   ],
   contact: {
     email: "rishipatel0826@gmail.com",
@@ -118,6 +118,32 @@ export const DATA = {
         },
       ],
       image: "https://i.postimg.cc/V6Z0Nw4b/Screenshot-2024-12-14-at-4-26-50-PM.png",
+    },
+    {
+      title: "KeyForge",
+      href: "https://github.com/rishipatel9/keyforge",
+      dates: "Nov 2024 - Jan 2024",
+      active: true,
+      description:
+      "KeyForge is a distributed key-value store that uses static sharding to distribute data across multiple nodes. The project is implemented in Go and leverages BoltDB for storage, HTTP for communication, and gRPC for remote procedure calls.",
+      "technologies": [
+        "Go",
+        "BoltDB",
+        "gRPC",
+        "Sharding",
+        "net/http",
+        "testing package",
+        "flag package",
+        "Shell scripts"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/rishipatel9/keyforge",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Distributed-Key-value-pair.jpeg",
     },
     {
       title: "text",
