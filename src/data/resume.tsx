@@ -18,7 +18,6 @@ export const DATA = {
     "Typescript",
     "Node.js",
     "PostgresSQL",
-    "Docker",
     "Redis",
     "C++",
     "Python",
