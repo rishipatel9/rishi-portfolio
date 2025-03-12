@@ -209,41 +209,6 @@ export const DATA = {
       ],
       image: "https://i.postimg.cc/k49TbNKf/Screenshot-2024-09-17-at-5-39-11-PM.jpg",
     },
-    {
-      title: "mines",
-      href: "https://mines.whiteops.xyz",
-      dates: "May 2024 - June 2024",
-      active: true,
-      description:
-        "A Mines clone of Stake is a web-based game where players reveal tiles on a grid, avoiding hidden mines while uncovering rewards. The game offers customizable settings, sleek design, and a thrilling balance of risk and reward.",
-      technologies: [
-        "React",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Nodejs",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://mines.whiteops.xyz",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/rishipatel9/mines",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Status Page",
-          href: "http://status.mines.whiteops.xyz/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "https://i.postimg.cc/XJmFW3D2/Screenshot-2024-06-25-at-5-17-35-PM.jpg",
-    },
   ],
 
 } as const;
