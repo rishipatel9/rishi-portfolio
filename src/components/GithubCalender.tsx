@@ -58,8 +58,12 @@ const GitHubCalendarWrapper: React.FC<GitHubCalendarWrapperProps> = ({ username 
       <div style={{ display: 'inline-block' }}> 
         <GitHubCalendar 
           username={username} 
-          theme={themeColors as ThemeInput}
+          // theme={themeColors as ThemeInput}
           fontSize={12} 
+          blockRadius={3}
+          blockSize={14}
+          blockMargin={3}
+          colorScheme={theme === 'dark' ? 'dark' : 'light'}
         />
       </div>
     </div>
