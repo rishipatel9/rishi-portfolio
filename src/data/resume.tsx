@@ -89,6 +89,36 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Torm",
+      href: "https://torm.live",
+      dates: "July 2025 - Present",
+      active: true,
+      description:
+        "A simple and intuitive form builder for creating and managing forms easily. It allows users to create forms with various field types, customize their appearance, and manage submissions efficiently.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Trpc",
+        "Better-Auth",
+        "PostgreSQL",
+        "Prisma",
+        "Tanstack Query",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://torm.live",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/rishipatel9/elytra",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "https://i.ibb.co/RGq0xrSX/Screenshot-2025-07-24-at-9-55-14-PM.png",
+    },
+    {
       title: "Elytra",
       href: "https://rishii.dev",
       dates: "Nov 2024 - Dec 2024",
@@ -147,7 +177,7 @@ export const DATA = {
     {
       title: "text",
       href: "https://text.whiteops.xyz",
-      dates: "July 2023 - Aug 2023",
+      dates: "July 2024 - Aug 2024",
       active: true,
       description:
         "A scalable real-time chat app that leverages Redis and WebSockets for efficient message delivery and instant communication across multiple users. Designed to handle high traffic with minimal latency.",
@@ -184,7 +214,7 @@ export const DATA = {
     {
       title: "Wallet",
       href: "https://wallet.whiteops.xyz",
-      dates: "Aug 2023 - Present",
+      dates: "Aug 2024 ",
       active: true,
       description:
         "A Web3 wallet is a decentralized tool that allows users to securely store, send, and receive cryptocurrencies, while interacting seamlessly with blockchain applications. ",
