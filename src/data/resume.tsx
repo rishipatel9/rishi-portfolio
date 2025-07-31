@@ -110,11 +110,11 @@ export const DATA = {
           href: "https://torm.live",
           icon: <Icons.globe className="size-3" />,
         },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/rishipatel9/elytra",
-        //   icon: <Icons.github className="size-3" />,
-        // },
+        {
+          type: "Source",
+          href: "https://github.com/rishipatel9/torm",
+          icon: <Icons.github className="size-3" />,
+        }
       ],
       image: "https://i.ibb.co/RGq0xrSX/Screenshot-2025-07-24-at-9-55-14-PM.png",
     },
