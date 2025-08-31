@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full stack engineer. I love understanding and building complex things",
   summary:
-    "I am a 3rd-year BCA student deeply interested in full stack web development. I enjoy building web applications that are both functional and visually appealing. I'm also exploring the world of Web3 and decentralized technologies, eager to contribute to the future of the internet. My goal is to blend traditional web development skills with the emerging Web3 landscape.",
+    "I enjoy building web applications that are both functional and visually appealing. I'm also exploring the world of Web3 and decentralized technologies, eager to contribute to the future of the internet. My goal is to blend traditional web development skills with the emerging Web3 landscape.",
   avatarUrl: "/me.png",
   skills: [
     "React",
